@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32408.312
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Androidx.Health", "Xamarin.Androidx.Health\Xamarin.Androidx.Health.csproj", "{65BA6A4A-CCB6-4A62-AB8D-A1537B6C108E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{34D5652E-8111-4C05-ABE9-2615A20A5675}"
+	ProjectSection(SolutionItems) = preProject
+		Xamarin.Androidx.Health.nuspec = Xamarin.Androidx.Health.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65BA6A4A-CCB6-4A62-AB8D-A1537B6C108E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BA6A4A-CCB6-4A62-AB8D-A1537B6C108E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BA6A4A-CCB6-4A62-AB8D-A1537B6C108E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BA6A4A-CCB6-4A62-AB8D-A1537B6C108E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F36303C-A696-4455-BFD9-1FD02F51D0D5}
+	EndGlobalSection
+EndGlobal

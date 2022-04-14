@@ -1,0 +1,15 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='androidx.health.services.client.impl']/class[@name='PassiveMonitoringCallbackStub']" name="managedName">PassiveMonitoringCallback</attr>
+	<attr path="/api/package[@name='androidx.health.services.client.impl']/class[@name='MeasureCallbackStub']" name="managedName">MeasureCallback</attr>
+	<attr path="/api/package[@name='androidx.health.services.client.impl']/class[@name='ExerciseUpdateListenerStub']" name="managedName">ExerciseUpdateListener</attr>
+	<!-- Change the visibility of a class --> 
+	<attr path="/api/package[@name='androidx.health.services.client.impl.ipc']/interface[@name='Client.ServiceGetter']" name="visibility">public</attr>
+	<attr path="/api/package[@name='androidx.health.services.client.impl.ipc']/interface[@name='Client.ServiceGetter']/method[@name='getService' and count(parameter)=1 and parameter[1][@type='android.os.IBinder']]" name="visibility">public</attr>
+</metadata>

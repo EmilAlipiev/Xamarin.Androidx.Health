@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Androidx.Health</id>
+    <version>1.0.0-pre1</version>
+    <title>Xamarin.Androidx.Health</title>
+    <authors>Emil Alipiev</authors>
+    <owners>EmilAlipiev</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/EmilAlipiev/Xamarin.Androidx.Health</projectUrl>
+	<repository type="git" url="https://github.com/EmilAlipiev/Xamarin.Androidx.Health" />
+    <description>AndroidX Health binding for Xamarin</description>
+    <releaseNotes></releaseNotes>
+    <tags>Xamarin, Xamarin.Android, Health, Heartbeat</tags>    
+	<license type="expression">MIT</license> 
+  </metadata>  
+   <files>      
+      <!--Android--> 
+	  <file src="XamarinToolTip\bin\Release\Xamarin.Androidx.Health.dll" target="lib\MonoAndroid11" />  	 
+	  <file src="XamarinToolTip\bin\Release\Xamarin.Androidx.Health.pdb" target="lib\MonoAndroid11" />  	 
+    </files>
+</package>
