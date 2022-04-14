@@ -15,8 +15,10 @@ jobs:
       run: msbuild Xamarin.Androidx.Health/Xamarin.Androidx.Health.csproj -property:Configuration=Release
     - name: Setup Nuget.exe
       uses: NuGet/setup-nuget@v1.0.6 
+      with:
+        nuget-version: '6.1.0'
     - name: Nuget Pack
-      run:  dotnet nuget pack Xamarin.Androidx.Health/Xamarin.Androidx.Health.nuspec
+      run:  nuget pack Xamarin.Androidx.Health/Xamarin.Androidx.Health.nuspec
     - name: Push Package to nuget
       run: dotnet nuget push **/*.nupkg
              --api-key ${{ secrets.nugetapikey }}
