@@ -18,7 +18,7 @@ jobs:
       with:
         nuget-version: '6.1.0'
     - name: Nuget Pack
-      run:  nuget pack Xamarin.Androidx.Health/Xamarin.Androidx.Health.nuspec
+      run:  nuget pack Xamarin.Androidx.Health.nuspec
     - name: Push Package to nuget
       run: dotnet nuget push **/*.nupkg
              --api-key ${{ secrets.nugetapikey }}
