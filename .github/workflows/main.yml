@@ -13,6 +13,8 @@ jobs:
       uses: microsoft/setup-msbuild@v1.1
     - name: Build with dotnet
       run: msbuild Xamarin.Androidx.Health/Xamarin.Androidx.Health.csproj -property:Configuration=Release
+    - name: Setup Nuget.exe
+      uses: NuGet/setup-nuget@v1.0.6 
     - name: Nuget Pack
       run:  dotnet nuget pack Xamarin.Androidx.Health/Xamarin.Androidx.Health.nuspec
     - name: Push Package to nuget
