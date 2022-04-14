@@ -16,7 +16,7 @@
   </metadata>  
    <files>      
       <!--Android--> 
-	  <file src="XamarinToolTip\bin\Release\Xamarin.Androidx.Health.dll" target="lib\MonoAndroid11" />  	 
-	  <file src="XamarinToolTip\bin\Release\Xamarin.Androidx.Health.pdb" target="lib\MonoAndroid11" />  	 
+	  <file src="Xamarin.Androidx.Health\bin\Release\Xamarin.Androidx.Health.dll" target="lib\MonoAndroid11" />  	 
+	  <file src="Xamarin.Androidx.Health\bin\Release\Xamarin.Androidx.Health.pdb" target="lib\MonoAndroid11" />  	 
     </files>
 </package>
